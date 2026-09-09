@@ -31,4 +31,4 @@ graph LR
     prometheus -->|HTTP scrape :9187| pgExporter
     prometheus -->|HTTP scrape :8000| api
     grafana -->|HTTP query :9090| prometheus
-    ```
+```
